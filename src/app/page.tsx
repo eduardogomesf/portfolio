@@ -1,11 +1,19 @@
 import Image from "next/image";
 import { ExternalLinkButton } from "./_components/ExternalLinkButton";
+import profilePic from '../../public/images/me.jpg'
+
 
 export default function Home() {
   return (
     <main className="flex flex-col bg-[#020c1b] w-screen	h-screen items-center	justify-center">
 
-      <Image src="/images/me.jpg" alt="Avatar" width={300} height={300} className="rounded-full border-2 border-[#C0C0C0]" />
+      <Image
+        src={profilePic}
+        width={275}
+        height={275}
+        alt="Avatar"
+        className="rounded-full border-2 border-[#C0C0C0]"
+      />
 
       <div className="mt-6 flex flex-col items-center justify-center gap-4">
         <strong className="text-[#FFFFFF] text-2xl sm:text-4xl">Eduardo Gomes</strong>
