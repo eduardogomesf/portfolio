@@ -25,7 +25,7 @@ export function ExternalLinkButton({ text, link }: ExternalLinkButtonProps) {
     <a
       href={link}
       target="_blank" rel="noopener noreferrer"
-      className={`py-2 w-[25rem] rounded text-lg flex items-center justify-center gap-2 ${backgroundColor[text]}`}
+      className={`py-2 w-[20rem] sm:w-[25rem] rounded text-lg flex items-center justify-center gap-2 ${backgroundColor[text]}`}
     >
       {icon[text]}
       {text}
