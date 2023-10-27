@@ -1,7 +1,6 @@
 import Image from "next/image";
-import { ExternalLinkButton } from "./_components/ExternalLinkButton";
+import { ExternalLinkButton } from "./components/ExternalLinkButton";
 import profilePic from '../../public/images/me.jpg'
-
 
 export default function Home() {
   return (
