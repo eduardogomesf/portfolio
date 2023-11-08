@@ -10,8 +10,11 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Eduardo Gomes',
+  title: 'Home',
   description: 'A web portfolio for Eduardo Gomes',
+  icons: {
+    icon: '/images/favicon.svg',
+  }
 }
 
 export default function RootLayout({
